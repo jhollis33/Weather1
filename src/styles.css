@@ -1,0 +1,70 @@
+.container {
+  color: white;
+  border: 10px, solid, black;
+  padding: 80px;
+  background-image: url("http://365daysoflearning.weebly.com/uploads/1/9/8/9/19897165/3525662.jpg?520");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container:hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv1vFaJrOXX5DyoK8e2TrRrpw6QYD_mQoeQ&usqp=CAU");
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+h1,
+h2,
+h3,
+.row {
+  font-family: "Sansita Swashed", cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1:hover {
+  color: black;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h3:hover {
+  color: black;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  font-size: 40px;
+}
+
+li:hover {
+  color: black;
+  cursor: pointer;
+}
+.temperature {
+  font-size: 100px;
+}
+
+.temperature:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.row {
+  padding-bottom: 20px;
+}
